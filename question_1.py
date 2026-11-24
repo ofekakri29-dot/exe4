@@ -94,7 +94,7 @@ class GradesWindow(QWidget):
                 self.original_grades.append(int(grade))
                 self.corrected_grades.append(int(grade))
 
-        self.file_label.setText(f'File: {os.path.basename(self.selected_file)}')
+        self.file_label.setText(f'File: {self.selected_file}')
         self.message_label.setText(f'{len(self.student_ids)} students loaded')
         self.update_table()
 
