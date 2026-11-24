@@ -18,7 +18,7 @@ class AboutWindow(QWidget):
         self.email_label = QLabel('Email: ofekakri29@gmail.com', self)
         self.email_label.setGeometry(20, 105, 380, 30)
 
-        self.github_label = QLabel('GitHub: <a href="https://github.com/ofekakri29-dot/exe4">github.com/ofekakri29-dot/exe4</a>', self)
+        self.github_label = QLabel('GitHub: <a style="color: #1d4ed8;" href="https://github.com/ofekakri29-dot/exe4">github.com/ofekakri29-dot/exe4</a>', self)
         self.github_label.setGeometry(20, 140, 380, 30)
         self.github_label.setOpenExternalLinks(True)
 
