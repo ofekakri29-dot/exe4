@@ -1,0 +1,64 @@
+QWidget {
+    background-color: #f1f5f9;
+    color: #1e293b;
+    font-size: 14px;
+}
+
+QLabel#title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1d4ed8;
+    padding: 6px 0px;
+}
+
+QLabel#message {
+    color: #b91c1c;
+    font-weight: bold;
+}
+
+QPushButton {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #1d4ed8;
+}
+
+QPushButton:pressed {
+    background-color: #1e40af;
+}
+
+QPushButton#about_button {
+    background-color: #64748b;
+}
+
+QPushButton#about_button:hover {
+    background-color: #475569;
+}
+
+QSpinBox {
+    background-color: white;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+    padding: 4px;
+    min-width: 70px;
+}
+
+QTableWidget {
+    background-color: white;
+    gridline-color: #cbd5e1;
+    border: 1px solid #94a3b8;
+    border-radius: 6px;
+}
+
+QHeaderView::section {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    font-weight: bold;
+    padding: 4px;
+    border: none;
+}
